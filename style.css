@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+*{margin:0;padding:0;box-sizing:border-box;font-family:"Poppins",sans-serif;}
+body{background:#f4f6fb;color:#111;}
+
+/* NAVBAR */
+.navbar{position:fixed;top:0;width:100%;padding:18px 30px;display:flex;justify-content:space-between;align-items:center;background:rgba(255,255,255,0.95);backdrop-filter:blur(10px);z-index:1000;box-shadow:0 2px 10px rgba(0,0,0,0.05);}
+.logo{font-size:1.6rem;font-weight:600;}
+.btn-order{background:#25d366;color:white;padding:10px 20px;border-radius:50px;text-decoration:none;font-weight:600;transition:0.3s;}
+.btn-order:hover{background:#128c43;}
+
+/* HERO */
+.hero{height:40vh;background:linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.7)),url("https://images.unsplash.com/photo-1601924638867-3ec4c6f56b8f") center/cover no-repeat;display:flex;justify-content:center;align-items:center;text-align:center;}
+.hero h2{font-size:2.5rem;color:#fff;font-weight:600;margin-bottom:10px;}
+.hero p{color:#fff;opacity:0.85;font-size:1.1rem;}
+
+/* CATEGORÍAS */
+.categories{text-align:center;margin-top:90px;margin-bottom:30px;}
+.cat-btn{background:#fff;color:#111;border:none;padding:8px 15px;border-radius:50px;margin:5px;cursor:pointer;transition:0.3s;box-shadow:0 4px 10px rgba(0,0,0,0.08);}
+.cat-btn:hover{background:#25d366;color:#fff;}
+
+/* MENÚ */
+.menu{padding:20px;max-width:1200px;margin:auto;}
+.section-title{text-align:center;font-size:2.2rem;margin-bottom:30px;font-weight:600;}
+.menu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;}
+.item{background:white;padding:25px;border-radius:22px;box-shadow:0 8px 20px rgba(0,0,0,0.08);transition:0.3s;}
+.item:hover{transform:translateY(-8px);box-shadow:0 12px 30px rgba(0,0,0,0.15);}
+.icon{font-size:2rem;}
+.item h4{margin-top:10px;font-size:1.3rem;}
+.price{display:block;margin-top:10px;font-weight:600;color:#25d366;}
+.add-btn{margin-top:12px;background:#25d366;color:white;border:none;padding:8px 15px;border-radius:50px;cursor:pointer;font-weight:600;transition:0.3s;}
+.add-btn:hover{background:#128c43;}
+
+/* CARRITO */
+.cart{margin-top:40px;background:#fff;padding:20px;border-radius:15px;box-shadow:0 8px 20px rgba(0,0,0,0.08);}
+.cart h3{margin-bottom:15px;}
+#cartList li{margin-bottom:8px;}
+#total{font-weight:600;color:#25d366;}
+.qr{text-align:center;margin-top:20px;}
+.qr img{border-radius:12px;}
+
+/* FOOTER */
+.footer{background:#111;color:white;text-align:center;padding:25px;margin-top:50px;}

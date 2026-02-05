@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tutto per Tutti 🍕</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <h1 class="logo">Tutto per Tutti</h1>
+  <a class="btn-order" href="#" id="sendOrder">Enviar pedido</a>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-content">
+    <h2>Comida artesanal, rápida y deliciosa</h2>
+    <p>Pizza • Lomitos • Burgers • Empanadas • Milanesa • Ensaladas • Bebidas</p>
+  </div>
+</header>
+
+<!-- FILTROS DE CATEGORÍA -->
+<div class="categories">
+  <button class="cat-btn" data-category="all">Todos</button>
+  <button class="cat-btn" data-category="pizza">Pizza</button>
+  <button class="cat-btn" data-category="lomito">Lomitos</button>
+  <button class="cat-btn" data-category="hamburguesa">Hamburguesas</button>
+  <button class="cat-btn" data-category="empanada">Empanadas</button>
+  <button class="cat-btn" data-category="milanesa">Milanesas</button>
+  <button class="cat-btn" data-category="ensalada">Ensaladas</button>
+  <button class="cat-btn" data-category="bebida">Bebidas</button>
+</div>
+
+<!-- MENÚ -->
+<main class="menu">
+  <h3 class="section-title">🍽 Menú Premium</h3>
+  <div class="menu-grid">
+
+    <!-- PIZZAS -->
+    <div class="item" data-name="Pizza Muzzarella" data-price="1200" data-category="pizza">
+      <span class="icon">🍕</span>
+      <h4>Pizza Muzzarella</h4>
+      <span class="price">$1200</span>
+      <button class="add-btn">➕ Agregar</button>
+    </div>
+    <div class="item" data-name="Pizza Napolitana" data-price="1500" data-category="pizza">
+      <span class="icon">🍕</span>
+      <h4>Pizza Napolitana</h4>
+      <span class="price">$1500</span>
+      <button class="add-btn">➕ Agregar</button>
+    </div>
+    <div class="item" data-name="Pizza Fugazzeta" data-price="1600" data-category="pizza">
+      <span class="icon">🍕</span>
+      <h4>Pizza Fugazzeta</h4>
+      <span class="price">$1600</span>
+      <button class="add-btn">➕ Agregar</button>
+    </div>
+    <div class="item" data-name="Pizza Especial" data-price="2500" data-category="pizza">
+      <span class="icon">🍕</span>
+      <h4>Pizza Especial</h4>
+      <span class="price">$2500</span>
+      <button class="add-btn">➕ Agregar</button>
+    </div>
+
+    <!-- LOMITOS -->
+    <div class="item" data-name="Lomito Completo" data-price="1500" data-category="lomito">
+      <span class="icon">🥩</span>
+      <h4>Lomito Completo</h4>
+      <span class="price">$1500</span>
+      <button class="add-btn">➕ Agregar</button>
+    </div>
+    <div class="item" data-name="Lomito Cheddar" data-price="1700" data-category="lomito">
+      <span class="icon">🥩</span>
+      <h4>Lomito Cheddar</h4>
+      <span class="price">$1700</span>
+      <button class="add-btn">➕ Agregar</button>
+    </div>
+    <div class="item" data-name="Lomito Especial Tutto" data-price="2200" data-category="lomito">
+      <span class="icon">🥩</span>
+      <h4>Lomito Especial Tutto</h4>
+      <span class="price">$2200</span>
+      <button class="add-btn">➕ Agregar</button>
+    </div>
+
+    <!-- HAMBURGUESAS -->
+    <div class="item" data-name="Hamburguesa Clásica" data-price="1400" data-category="hamburguesa">
+      <span class="icon">🍔</span>
+      <h4>Hamburguesa Clásica</h4>
+      <span class="price">$1400</span>
+      <button class="add-btn">➕ Agregar</button>
+    </div>
+    <div class="item" data-name="Hamburguesa Doble" data-price="1800" data-category="hamburguesa">
+      <span class="icon">🍔</span>
+      <h4>Hamburguesa Doble</h4>
+      <span class="price">$1800</span>
+      <button class="add-btn">➕ Agregar</button>
+    </div>
+    <div class="item" data-name="Hamburguesa Premium" data-price="2300" data-category="hamburguesa">
+      <span class="icon">🍔</span>
+      <h4>Hamburguesa Premium</h4>
+      <span class="price">$2300</span>
+      <button class="add-btn">➕ Agregar</button>
+    </div>
+
+    <!-- EMPANADAS -->
+    <div class="item" data-name="Empanada de Carne" data-price="250" data-category="empanada">
+      <span class="icon">🥟</span>
+      <h4>Empanada de Carne</h4>
+      <span class="price">$250</span>
+      <button class="add-btn">➕ Agregar</button>
+    </div>
+    <div class="item" data-name="Empanada Jamón y Queso" data-price="250" data-category="empanada">
+      <span class="icon">🥟</span>
+      <h4>Empanada Jamón y Queso</h4>
+      <span class="price">$250</span>
+      <button class="add-btn">➕ Agregar</button>
+    </div>
+    <div class="item" data-name="Empanada de Pollo" data-price="250" data-category="empanada">
+      <span class="icon">🥟</span>
+      <h4>Empanada de Pollo</h4>
+      <span class="price">$250</span>
+      <button class="add-btn">➕ Agregar</button>
+    </div>
+    <div class="item" data-name="Empanada Caprese" data-price="250" data-category="empanada">
+      <span class="icon">🥟</span>
+      <h4>Empanada Caprese</h4>
+      <span class="price">$250</span>
+      <button class="add-btn">➕ Agregar</button>
+    </div>
+
+    <!-- MILANESAS -->
+    <div class="item" data-name="Milanesa Clásica" data-price="1500" data-category="milanesa">
+      <span class="icon">🍽</span>
+      <h4>Milanesa Clásica</h4>
+      <span class="price">$1500</span>
+      <button class="add-btn">➕ Agregar</button>
+    </div>
+    <div class="item" data-name="Milanesa Napolitana" data-price="1800" data-category="milanesa">
+      <span class="icon">🍽</span>
+      <h4>Milanesa Napolitana</h4>
+      <span class="price">$1800</span>
+      <button class="add-btn">➕ Agregar</button>
+    </div>
+    <div class="item" data-name="Milanesa Completa" data-price="2200" data-category="milanesa">
+      <span class="icon">🍽</span>
+      <h4>Milanesa Completa</h4>
+      <span class="price">$2200</span>
+      <button class="add-btn">➕ Agregar</button>
+    </div>
+
+    <!-- ENSALADAS -->
+    <div class="item" data-name="Ensalada Fresca" data-price="900" data-category="ensalada">
+      <span class="icon">🥗</span>
+      <h4>Ensalada Fresca</h4>
+      <span class="price">$900</span>
+      <button class="add-btn">➕ Agregar</button>
+    </div>
+    <div class="item" data-name="Ensalada César" data-price="1200" data-category="ensalada">
+      <span class="icon">🥗</span>
+      <h4>Ensalada César</h4>
+      <span class="price">$1200</span>
+      <button class="add-btn">➕ Agregar</button>
+    </div>
+    <div class="item" data-name="Ensalada Completa" data-price="1500" data-category="ensalada">
+      <span class="icon">🥗</span>
+      <h4>Ensalada Completa</h4>
+      <span class="price">$1500</span>
+      <button class="add-btn">➕ Agregar</button>
+    </div>
+
+    <!-- BEBIDAS -->
+    <div class="item" data-name="Agua" data-price="200" data-category="bebida">
+      <span class="icon">💧</span>
+      <h4>Agua</h4>
+      <span class="price">$200</span>
+      <button class="add-btn">➕ Agregar</button>
+    </div>
+    <div class="item" data-name="Agua con gas" data-price="250" data-category="bebida">
+      <span class="icon">💧</span>
+      <h4>Agua con gas</h4>
+      <span class="price">$250</span>
+      <button class="add-btn">➕ Agregar</button>
+    </div>
+    <div class="item" data-name="Gaseosas" data-price="300" data-category="bebida">
+      <span class="icon">🥤</span>
+      <h4>Gaseosas</h4>
+      <span class="price">$300</span>
+      <button class="add-btn">➕ Agregar</button>
+    </div>
+    <div class="item" data-name="Cervezas" data-price="600" data-category="bebida">
+      <span class="icon">🍺</span>
+      <h4>Cervezas</h4>
+      <span class="price">$600</span>
+      <button class="add-btn">➕ Agregar</button>
+    </div>
+    <div class="item" data-name="Vinos" data-price="1000" data-category="bebida">
+      <span class="icon">🍷</span>
+      <h4>Vinos</h4>
+      <span class="price">$1000</span>
+      <button class="add-btn">➕ Agregar</button>
+    </div>
+
+  </div>
+
+  <!-- CARRITO -->
+  <div class="cart">
+    <h3>🛒 Tu pedido:</h3>
+    <ul id="cartList"></ul>
+    <p>Total: $<span id="total">0</span></p>
+
+    <!-- QR -->
+    <div class="qr">
+      <h4>📌 Escaneá para pedir rápido</h4>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://wa.me/5491166936128" alt="QR WhatsApp">
+    </div>
+  </div>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© 2026 Tutto per Tutti — Delivery Premium</p>
+</footer>
+
+<script>
+const addBtns = document.querySelectorAll('.add-btn');
+const cartList = document.getElementById('cartList');
+const totalEl = document.getElementById('total');
+const sendOrder = document.getElementById('sendOrder');
+const catBtns = document.querySelectorAll('.cat-btn');
+const items = document.querySelectorAll('.item');
+
+let cart = [];
+let total = 0;
+
+// Agregar al carrito
+addBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    const item = btn.parentElement;
+    const name = item.dataset.name;
+    const price = parseInt(item.dataset.price);
+
+    cart.push({name, price});
+    total += price;
+
+    cartList.innerHTML = cart.map(i => `<li>${i.name} - $${i.price}</li>`).join('');
+    totalEl.textContent = total;
+  });
+});
+
+// Enviar pedido por WhatsApp
+sendOrder.addEventListener('click', () => {
+  if(cart.length === 0){
+    alert("Agrega algo al pedido primero 😅");
+    return;
+  }
+  let message = "Hola, quiero hacer este pedido:%0A";
+  cart.forEach(i => {
+    message += `${i.name} - $${i.price}%0A`;
+  });
+  message += `Total: $${total}`;
+  window.open(`https://wa.me/5491166936128?text=${message}`, '_blank');
+});
+
+// Filtrar por categoría
+catBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    const cat = btn.dataset.category;
+    items.forEach(i => {
+      if(cat === "all" || i.dataset.category === cat){
+        i.style.display = "block";
+      } else {
+        i.style.display = "none";
+      }
+    });
+  });
+});
+</script>
+
+</body>
+</html>
